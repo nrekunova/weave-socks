@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Suite ui" verbose="1" >
+    <test name="ui">
+<!--        <packages>-->
+<!--            <package name="com.mojo.test"></package>-->
+<!--        </packages>-->
+        <classes>
+            <class name="com.socks.test.RegisterRestTest"></class>
+            <class name="com.socks.test.LoginUiTest"></class>
+        </classes>
+    </test>
+</suite>
