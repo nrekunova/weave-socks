@@ -19,7 +19,7 @@ public class LoginUiTest {
         sleep(2000);
         $("#Login");
         $("#username-modal").setValue("testName");
-        $("#password-modal").setValue("password");
+        $("#password-modal").setValue("testPassword");
         $(By.xpath("//button[contains(@onclick,'login')]")).click();
         sleep(3000);
     }
